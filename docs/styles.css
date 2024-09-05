@@ -1,16 +1,41 @@
-h1 {
-    color: blue;
-}
 body {
-    font-family: Arial, sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    font-style: normal;
+    background-color: #f9f9f9; /* Fondo claro */
+    font-family: 'Space Grotesk', sans-serif; /* Fuente 'Roboto' */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Altura completa de la ventana */
 }
+
+.container {
+    text-align: center; /* Texto centrado */
+    display: flex;
+    flex-direction: column; /* Coloca los elementos uno debajo de otro */
+    align-items: center; /* Centra los elementos en el eje horizontal */
+    gap: 20px; /* Espacio entre cada elemento */
+    background-color: #ff2828; /* Fondo blanco del contenedor */
+    padding: 50px; /* Relleno alrededor del contenido */
+    border-radius: 40px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h1 {
+    font-size: 2.5rem; /* Tamaño grande para el título */
+    color: #333; /* Color del texto */
+    margin: 0; /* Sin margen */
+}
+
+p {
+    font-size: 1.2rem; /* Tamaño mediano para el párrafo */
+    color: #666; /* Texto gris claro */
+    margin: 0;
+}
+
 img {
-    position: static;
-    width: 150px;
-    height: 150px;
-    margin: 15%;
-    border:2px solid #fff;
+    max-width: 150px; /* Tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave en la imagen */
 }
