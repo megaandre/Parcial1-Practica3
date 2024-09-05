@@ -4,4 +4,4 @@ Andre Eduardo Cerdan Abarca
 
 [Link Practica 4](https://megaandre.github.io/Parcial1-Practica3/)
 
-![foto](./IMG/Andre.jpg)
+![foto](./docs/IMG/Andre.jpg)
